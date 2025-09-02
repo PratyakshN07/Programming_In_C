@@ -4,14 +4,14 @@ int main()
     int a;
     printf("Enter a number = ");
     scanf("%d", &a);
-    if (a % 2 == 0)
+    if (a % 2 == 0) // for even integers
     {
         printf("ENTERED NUMBER IS EVEN");
     }
-    else
+    if (a % 2 != 0) // for odd integers
     {
         printf("ENTERED NUMBER IS ODD");
     }
 
-   return 0;
+    return 0;
 }
