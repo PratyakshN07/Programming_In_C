@@ -8,7 +8,7 @@ int main()
     {
         printf("Excellent");
     }
-    else if (n > 80)
+    else if (n > 80)    //Repeatedly writing if statements are not good rather than that use else if 
     {
         printf("Very Good");
     }
@@ -34,4 +34,5 @@ int main()
     }
 
     return 0;
+
 }
