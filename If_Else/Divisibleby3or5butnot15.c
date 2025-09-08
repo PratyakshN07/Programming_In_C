@@ -20,5 +20,5 @@ int main()
         printf("Number is not divisible by 3 or 5");
     }
     return 0;
-
 }
+
