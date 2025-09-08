@@ -8,4 +8,6 @@ int main()
     // expression 1 ? expression 2 : expression 3 ;
     n % 2 == 0 ? printf("It's a even number") : printf("It's a odd number");
     return 0;
+    
 }
+
