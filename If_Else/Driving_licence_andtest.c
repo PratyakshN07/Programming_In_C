@@ -7,14 +7,14 @@ int main()
     if (age >= 18)
     {
         printf("You are eligible for driving test \n");
-        int c;
+        char c;
         printf("Have you given any test for driving ? (y/n) = ");
         scanf(" %c", &c);
         if (c == 'y' || c == 'Y')
         {
             printf("Have you passed the test? (y/n) = ");
             scanf(" %c", &c);
-            if (c == 'Y' || 'y')
+            if (c == 'Y' || c=='y')
             {
                 printf("Your licence will be issued soon");
             }
@@ -32,6 +32,6 @@ int main()
     {
         printf("You are under age");
     }
+
     return 0;
 }
-
