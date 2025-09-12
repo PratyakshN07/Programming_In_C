@@ -8,11 +8,11 @@ int main()
     {
         printf("You are eligible for driving test \n");
         int c;
-        printf("Have you given any test for driving ? (y/n)");
+        printf("Have you given any test for driving ? (y/n) = ");
         scanf(" %c", &c);
         if (c == 'y' || c == 'Y')
         {
-            printf("Have you passed the test? (y/n)");
+            printf("Have you passed the test? (y/n) = ");
             scanf(" %c", &c);
             if (c == 'Y' || 'y')
             {
@@ -34,3 +34,4 @@ int main()
     }
     return 0;
 }
+
