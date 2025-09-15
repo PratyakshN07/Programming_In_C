@@ -9,6 +9,5 @@ int main()
     for (int i = n; i <= (a * 10); i = i + n)
         printf("%d \n", i);
     return 0;
-
-    
 }
+
