@@ -11,7 +11,5 @@ int main()
         printf("%d,", a);
         a = a - 3;
     }
-    
     return 0;
-
 }
