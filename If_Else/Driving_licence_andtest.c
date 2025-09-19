@@ -32,6 +32,6 @@ int main()
     {
         printf("You are under age");
     }
-
     return 0;
 }
+
