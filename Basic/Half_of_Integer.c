@@ -10,6 +10,6 @@ int main()
 
     float z = x - y; // fractional part
     printf("Fractional part = %.2f\n", z);
-
     return 0;
 }
+
