@@ -14,7 +14,7 @@ int main()
         for (int j = 0; j < 4; j++)
         {
             if (arr[i][j] == 1)
-                count++
+                count++;
         }
 
         if (MAX_COUNT < count)
@@ -25,4 +25,5 @@ int main()
     }
     printf("%d", MAX_COUNT);
     return 0;
+
 }
